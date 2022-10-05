@@ -3,14 +3,15 @@ body {
 }
 
 header {
-    position: fixed;
     padding: 40px 165px;
-    width: 100%;
     background-color: #111111;
+    display: flex;
+    justify-content: space-between;
 }
 
 .left {
-    
+    display: flex;
+    align-items: center;
 }
 
 .white {
@@ -19,4 +20,11 @@ header {
 
 .blue {
     color: #0FA2DB;
+}
+
+.header_button {
+    padding: 15px;
+    background-color: #2F2F2F;
+    color: #FFFFFF;
+    border-radius: 5px;
 }
