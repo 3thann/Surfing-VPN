@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 body {
 	margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
-    padding: 40px 165px;
+    padding: 40px 160px;
     background-color: #111111;
     display: flex;
     justify-content: space-between;
@@ -27,12 +30,94 @@ header {
     background-color: #2F2F2F;
     color: #FFFFFF;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 nav {
-    padding: 30px 160px;
+    padding: 25px 160px;
     display: flex;
     justify-content: space-between;
     background-color: #232323;
     color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    background: linear-gradient( #00093A 20%, #111111 100%);
+}
+
+.top_main {
+    padding: 30px 100px 100px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_main {
+    width: 60%;
+}
+
+.right_main {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top_right_main {
+    padding: 100px 0px 20px 0px;
+    text-align: center;
+}
+
+.blue_main {
+    color: #0FA2DB;
+    font-size: 35px;
+}
+
+.white_main {
+    color: #FFFFFF;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottom_right_main {
+    background-color: #232323;
+    padding: 20px 50px 20px 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.download_txt {
+    color: #FFFFFF;
+    padding-bottom: 10px;
+    font-size: 23px;
+}
+
+.download_btn {
+    font-size: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #0FA2DB;
+    border-radius: 15px;
+    padding: 10px 60px 10px 60px;
+    cursor: pointer;
+}
+
+.right_main p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+
+.bottom_main {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px 10px 50px;
+}
+
+.check {
+    display: flex;
+    align-items: center;
 }
