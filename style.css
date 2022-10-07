@@ -166,6 +166,10 @@ nav {
     flex-direction: column;
 }
 
+.description_features img {
+    padding-bottom: 20px;
+}
+
 .three_steps {
     background-color: #232323;
     padding: 60px 200px 60px 200px;
@@ -199,8 +203,9 @@ nav {
 
 .description_three_steps img {
     border: 3px solid #0FA2DB;
-    border-radius: 70px;
-    padding: 25px;
+    clip-path: ellipse(78px 78px);
+    border-radius: 50%;
+    
 }
 
 .protection {
