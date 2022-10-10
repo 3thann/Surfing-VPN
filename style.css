@@ -5,11 +5,24 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* HEADER */
+
 header {
     padding: 40px 160px;
     background-color: #111111;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .left {
@@ -32,6 +45,14 @@ header {
     border-radius: 5px;
     cursor: pointer;
 }
+
+.header_button:hover {
+    transition-delay: 0.1s;
+    transition-duration: 0.2s;
+    background-color: #111111;
+}
+
+/* NAVIGATION */
 
 nav {
     padding: 25px 160px;
@@ -103,6 +124,13 @@ nav {
     cursor: pointer;
 }
 
+.download_btn:hover {
+    transition-delay: 0.1s;
+    transition-duration: 0.2s;
+    color: #FFFFFF;
+    background-color: #00093A;
+}
+
 .right_download p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
@@ -117,10 +145,12 @@ nav {
     padding: 0px 50px 10px 50px;
 }
 
-.check {
+.check_download {
     display: flex;
     align-items: center;
 }
+
+/* WHY VPN ? */
 
 .txt_vpn {
     padding: 150px 250px 150px 250px;
@@ -141,6 +171,8 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 26px;
 }
+
+/* FEATURES */
 
 .features {
     padding: 100px 280px 150px 280px;
@@ -170,13 +202,15 @@ nav {
     padding-bottom: 20px;
 }
 
+/* STEPS */
+
 .three_steps {
     background-color: #232323;
     padding: 60px 200px 60px 200px;
 }
 
 .top_three_steps {
-    font-size: 52px;
+    font-size: 25px;
     text-align: center;
     padding-bottom: 60px;
 }
@@ -201,12 +235,15 @@ nav {
     flex-direction: column;
 }
 
-.description_three_steps img {
+.case_steps {
+    height: 85px;
+    width: 85px;
     border: 3px solid #0FA2DB;
-    clip-path: ellipse(78px 78px);
     border-radius: 50%;
-    
+    padding: 18px;
 }
+
+/* PROTECTION */
 
 .protection {
     background-color: #060606;
@@ -215,7 +252,8 @@ nav {
 
 .top_protection {
     text-align: center;
-    font-size: 52px;
+    font-size: 30px;
+    padding-bottom: 130px;
 }
 
 .white_protection {
@@ -228,7 +266,48 @@ nav {
 
 .bottom_protection {
     padding-left: 200px;
+    display: flex;
+    justify-content: space-between;
 }
+
+.left_protection {
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.left_top_prot h2 {
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.left_mid_prot {
+    color: #FFFFFF;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 42px;
+}
+
+.check_prot {
+    display: flex;
+    align-items: center;
+    margin: 9px 0px 9px 0px;
+}
+
+.left_bottom_prot {
+    padding-bottom: 130px;
+}
+
+.right_protection {
+    position: relative;
+    bottom: -63px;
+    right: 0px;
+}
+
+/* ASIDE */
 
 aside {
     background-color: #232323;
@@ -245,16 +324,17 @@ aside {
     display: flex;
     flex-direction: column;
     max-width: 320px;
+    padding: 0px 20px;
 }
 
 .box_aside h1 {
     font-size: 16px;
 }
 
-.box_aside p {
+.box_aside a {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 0px 10px 0px 10px;
+
 }
 
 .bottom_aside {
@@ -265,9 +345,12 @@ aside {
     justify-content: space-between;
 }
 
+/* FOOTER */
+
 footer {
     padding: 50px 410px 40px 410px;
     background-color: #111111;
     color: #FFFFFF;
     text-align: center;
+    font-size: 23px;
 }
